@@ -9,7 +9,7 @@ class SendMail{
             }
             else{
             $headers = array(
-                'Authorization: Bearer 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',
+                'Authorization: Bearer SG.7777DuGL6-osRSqZ88VTzJWG7Q7777.R9LAtRAp0oSep81Wd5h_sJ0gTzZnWeugayIplx_yqKo7777',
                 'Content-Type: application/json'
             );
 
