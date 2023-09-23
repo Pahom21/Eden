@@ -38,14 +38,14 @@
 					<div class="login-wrap p-4 p-md-5">
 		      	<div class="img" style="background-image: url(Images/demon-tanjiro.webp);"></div>
 		      	<h3 class="text-center mb-4">Create Your Account</h3>
-						<form action="#" class="signup-form">
+						<form action="mail.php" method="POST" class="signup-form">
 		      		<div class="form-group mb-3">
 		      			<label class="label" for="name">Full Name</label>
-		      			<input type="text" class="form-control" placeholder="name">
+		      			<input type="text" name="name" class="form-control" placeholder="name">
 		      		</div>
 		      		<div class="form-group mb-3">
 		      			<label class="label" for="email">Email Address</label>
-		      			<input type="text" class="form-control" placeholder="abc....@gmail.com">
+		      			<input type="email" name="email" class="form-control" placeholder="abc....@gmail.com">
 		      		</div>
 	            <!-- <div class="form-group mb-3">
 	            	<label class="label" for="password">Password</label>
