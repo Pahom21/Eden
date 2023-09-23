@@ -3,7 +3,7 @@
 
     //User details 
     $details["name_receiver"] = $_POST["name"];
-    $details["email_receiver"] = $_post["email"];
+    $details["email_receiver"] = $_POST["email"];
     $details["email_subject_line"] = "WELCOME TO ". $conf["site_name"] ." ! ACCOUNT VERIFICATION";
     $details["email_message"] = "
     Hi " . $details["name_receiver"] . ",
